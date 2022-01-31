@@ -1,0 +1,10 @@
+#ifndef PLAYER_H_
+#define PLAYER_H_
+
+struct Bombs;
+
+struct Bombs* bomb_init();
+
+int bomb_launch(struct Bombs* bomb,struct map* map);
+
+void bomb_display(struct Bombs* bomb);
